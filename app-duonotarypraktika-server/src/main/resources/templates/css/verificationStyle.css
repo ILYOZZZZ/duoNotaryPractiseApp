@@ -1,0 +1,24 @@
+.title{
+}
+.verify-button{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: darkorange;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.verify-button:hover{
+    background-color: orange;
+}
+.text{
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.div{
+    width: 100%;
+    text-align: center;
+    background-color: #E8E8E8;
+    padding: 20px;
+}

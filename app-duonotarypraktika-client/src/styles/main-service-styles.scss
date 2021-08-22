@@ -1,0 +1,33 @@
+.container-fluid{
+  height: 100vh!important;
+}
+
+.main-btn {
+  background: white !important;
+  border-radius: 50% !important;
+  width: 3rem;
+  height: 3rem;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 1);
+}
+
+.add{
+  background: forestgreen !important;
+  border-radius: 50% !important;
+  width: 50px;
+  height: 50px;
+}
+
+.modalMainService{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100%;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  .timeInput{
+    width: 8rem;
+    height: 2.4rem;
+  }
+}

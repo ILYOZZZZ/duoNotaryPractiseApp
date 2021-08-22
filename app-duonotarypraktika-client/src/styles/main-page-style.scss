@@ -1,0 +1,51 @@
+body{
+  height: 100vh!important;
+  background-color: #E5E5E5!important;
+}
+
+.card {
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.card1 {
+  height: 80px;
+}
+.card3{
+  height: 100px!important;
+}
+
+.card2 {
+  height: 70px;
+
+  .column {
+
+  }
+}
+.wrapper{
+  width: 200px!important;
+}
+.wrapper-two{
+  width: 270px!important;
+}
+.border-right{
+  height: 65px;
+}
+
+
+.bg{
+  background-color: whitesmoke;
+}
+
+.modalCalendar{
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 10s;
+}

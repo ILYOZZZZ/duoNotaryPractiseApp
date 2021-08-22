@@ -1,0 +1,17 @@
+.active-tab{
+    background-color: #04A6FB;
+    color: #FFFFFF!important;
+    text-decoration: none!important;
+}
+.default{
+    &-tab{
+        background-color: white;
+        color: #313E47;
+        text-decoration: none!important;
+        &:hover{
+            background-color: #04A6FB;
+            color: #FFFFFF!important;
+            text-decoration: none!important;
+        }
+    }
+}

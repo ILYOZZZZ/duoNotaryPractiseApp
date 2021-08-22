@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /*<"css/verificationStyle.css">*/
+        .title{
+        }
+        .verify-button{
+            margin: 0 auto;
+            padding: 10px;
+            background-color: darkorange;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+        .verify-button:hover{
+            background-color: orange;
+        }
+        .text{
+        }
+        .link{
+            text-decoration: none;
+            color: white;
+        }
+        .div{
+            width: 100%;
+            text-align: center;
+            background-color: #E8E8E8;
+            padding: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/verificationStyle.css">
+</head>
+<body>
+<div class="div">
+    <h1 class="title">Dear ${firstName} ${lastName}</h1>
+    <h2 class="text">To access all our full features please verify your account by pressing the button below</h2>
+    <button class="verify-button"><a class="link" href="http://localhost/api/mail/verify?check=true&userId=${userId}&verificationCode=${verificationCode}&changing=${changing}">Verify my mail</a></button>
+    <button class="verify-button"><a class="link" href="http://localhost/api/mail/verify?check=false&userId=${userId}&verificationCode=${verificationCode}&changing=${changing}">Verify my mail</a></button>
+</div>
+</body>
+</html>

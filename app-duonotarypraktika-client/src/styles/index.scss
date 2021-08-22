@@ -1,0 +1,20 @@
+@import "admin-layout-style";
+
+.cabinet{
+  display: flex;
+  overflow-x: scroll;
+}
+
+.menu-side{
+  float: left;
+  width: 21%;
+  height: 100vh;
+  //border: 1px solid black;
+}
+
+.page-side{
+  float: right;
+  width: 79%;
+  //border: 1px solid black;
+
+}

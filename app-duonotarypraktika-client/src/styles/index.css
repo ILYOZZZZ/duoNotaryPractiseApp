@@ -1,0 +1,21 @@
+@import "glabal.css";
+
+
+.card-style {
+
+    color: #32325d;
+    -webkit-font-smoothing:antialiased;
+    font-size: 16px;
+
+}
+
+.card-style::placeholder {
+    color: #32325d
+}
+
+.card-style:invalid{
+    color: #fa755a;
+    icon-color: #fa755a
+
+}
+

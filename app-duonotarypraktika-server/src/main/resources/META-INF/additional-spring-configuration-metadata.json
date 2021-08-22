@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "twilio.trial.phone.number",
+      "type": "java.lang.String",
+      "description": "Description for twilio.trial.phone.number."
+  }
+] }

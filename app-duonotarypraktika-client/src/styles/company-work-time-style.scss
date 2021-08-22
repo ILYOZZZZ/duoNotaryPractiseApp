@@ -1,0 +1,56 @@
+.container-fluid {
+  height: 100vh !important;
+
+  .main-btn {
+    background: white !important;
+    border-radius: 50% !important;
+    width: 3rem;
+    height: 3rem;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 1);
+  }
+
+  .main-btn:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .workTimeCard {
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 4px !important;
+
+    .cols {
+      width: 150px;
+      height: 40px;
+      text-align: center;
+      margin-left: 23px;
+      margin-right: 23px;
+    }
+
+    .cl {
+      width: 2px !important;
+      height: 2.5rem;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .workTimeCard:hover {
+    box-shadow: 0 3px 20px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .mainModal {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 14px;
+    width: 400px;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+
+  .mainSelect {
+    height: 38px;
+  }
+}
